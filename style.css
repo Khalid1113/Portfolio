@@ -1,0 +1,19 @@
+section{
+    background-color: #747264;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.first-page{
+    width: 100vh;
+    display: grid;
+    grid-template-columns: repeat(8,20px);
+    grid-template-rows: repeat(8,20px);
+}
+#aboutme,.projects{
+    background-color: #EBEBEB;
+}
+
+html, body {width: auto!important; overflow-x: hidden!important} 
+
